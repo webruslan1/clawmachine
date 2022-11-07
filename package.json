@@ -1,0 +1,25 @@
+{
+  "name": "troisjs-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@enable3d/ammo-on-nodejs": "^0.25.3",
+    "@enable3d/ammo-physics": "^0.25.3",
+    "cannon": "^0.6.2",
+    "enable3d": "^0.25.3",
+    "nice-color-palettes": "^3.0.0",
+    "three": "^0.144.0",
+    "troisjs": "^0.3.4",
+    "vue": "^3.2.20"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.4",
+    "@vue/cli-plugin-router": "~4.5.13",
+    "@vue/compiler-sfc": "^3.2.20",
+    "vite": "^2.6.14"
+  }
+}
